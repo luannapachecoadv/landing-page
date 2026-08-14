@@ -74,7 +74,7 @@
           <div class="flex flex-col gap-4">
             <a
               id="contact-cta-whatsapp"
-              href="https://wa.me/"
+              href="https://wa.me/5562996880352"
               target="_blank"
               rel="noopener noreferrer"
               class="font-body font-bold text-base py-4 px-8 rounded text-center transition-all hover:opacity-90 active:scale-95 shadow flex items-center justify-center gap-2"
@@ -113,8 +113,8 @@ const contacts = [
     id: 'contact-whatsapp',
     icon: 'phone',
     label: 'WhatsApp',
-    display: 'Entre em contato',
-    href: 'https://wa.me/',
+    display: '(62) 99688-0352',
+    href: 'https://wa.me/5562996880352',
     external: true,
   },
 ]

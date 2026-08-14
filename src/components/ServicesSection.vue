@@ -37,6 +37,20 @@
             class="font-body text-sm leading-relaxed"
             style="color: var(--color-on-surface-variant);"
           >{{ service.description }}</p>
+          <ul
+            v-if="service.items"
+            class="mt-4 space-y-1.5"
+            style="color: var(--color-on-surface-variant);"
+          >
+            <li
+              v-for="item in service.items"
+              :key="item"
+              class="font-body text-sm leading-relaxed flex gap-2"
+            >
+              <span class="mt-0.5 shrink-0 material-symbols-outlined text-base" style="color: var(--color-secondary);">chevron_right</span>
+              <span>{{ item }}</span>
+            </li>
+          </ul>
         </article>
       </div>
     </div>
@@ -79,6 +93,35 @@ const services = [
     title: 'LOAS para Autistas e TDAH',
     description:
       'Orientação e atuação jurídica especializada na obtenção do Benefício de Prestação Continuada (BPC/LOAS) para crianças e adultos com Autismo (TEA) e TDAH.',
+  },
+  {
+    id: 'planos',
+    icon: 'health_and_safety',
+    title: 'Ações Contra Planos de Saúde',
+    description: 'Atuamos na defesa dos direitos dos beneficiários frente a práticas abusivas das operadoras, incluindo:',
+    items: [
+      'Recusa injustificada de exames, cirurgias, internações ou tratamentos indispensáveis à saúde do beneficiário;',
+      'Reajustes abusivos da mensalidade, sobretudo em contratos de idosos ou de pessoas com doenças crônicas;',
+      'Cancelamento unilateral ou indevido do plano de saúde;',
+      'Negativa de reembolso de despesas médicas garantidas em contrato;',
+      'Exclusão de hospitais ou médicos da rede credenciada sem comunicação prévia ao beneficiário;',
+      'Falta de cobertura para home care ou remoção por ambulância quando clinicamente necessários.',
+    ],
+  },
+  {
+    id: 'trabalhista',
+    icon: 'groups',
+    title: 'Direitos dos Profissionais da Saúde',
+    description:
+      'Médicos, enfermeiros, técnicos e demais profissionais da saúde enfrentam rotinas exaustivas, plantões excessivos e, muitas vezes, direitos trabalhistas desrespeitados. Atuamos exclusivamente na defesa desses profissionais, com conhecimento aprofundado das particularidades da categoria. Nosso compromisso é garantir que quem cuida da saúde dos outros também tenha seus direitos protegidos, com atendimento humanizado e atuação estratégica em negociações extrajudiciais e ações judiciais.',
+    items: [
+      'Horas extras e jornada em regime de plantão;',
+      'Adicional de insalubridade e periculosidade;',
+      'Assédio moral e ambiente de trabalho hostil;',
+      'Rescisão indireta e verbas rescisórias;',
+      'Reconhecimento de vínculo empregatício;',
+      'Equiparação salarial e desvio de função.',
+    ],
   },
 ]
 </script>

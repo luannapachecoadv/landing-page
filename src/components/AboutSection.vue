@@ -32,7 +32,7 @@
         <div class="w-20 h-1 rounded-full" style="background-color: var(--color-secondary);"></div>
 
         <p class="font-body text-lg leading-relaxed" style="color: var(--color-surface-variant);">
-          Especialista em Direito Médico e da Saúde, a Dra. Luanna Pacheco dedica sua carreira à proteção jurídica daqueles que dedicam suas vidas ao cuidado humano. Com uma abordagem que une rigor técnico e profunda empatia, ela se tornou referência na defesa da classe médica.
+          Advogada com atuação especializada em Direito da Saúde para pacientes, com foco em demandas contra planos de saúde, erro médico e trabalhista para profissionais da saúde.
         </p>
         <p class="font-body text-lg leading-relaxed" style="color: var(--color-surface-variant);">
           Sua atuação é pautada na prevenção de litígios e na construção de um ambiente institucional seguro, permitindo que profissionais e hospitais foquem no que é essencial: a excelência no atendimento.

@@ -63,6 +63,5 @@
 </template>
 
 <script setup>
-// WhatsApp link — number to be filled in
-const whatsappUrl = 'https://wa.me/'
+const whatsappUrl = 'https://wa.me/5562996880352'
 </script>
