@@ -3,9 +3,9 @@
     <!-- Background image -->
     <div class="absolute inset-0 z-0">
       <picture>
-        <source srcset="/src/assets/images/hero.webp" type="image/webp" />
+        <source srcset="/src/assets/images/hero-banner.webp" type="image/webp" />
         <img
-          src="/src/assets/images/hero.jpg"
+          src="/src/assets/images/hero-banner.jpg"
           alt="Escritório jurídico moderno com ambientação sofisticada"
           class="w-full h-full object-cover"
         />
