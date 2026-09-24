@@ -14,6 +14,9 @@
             src="/src/assets/images/about-me.jpg"
             alt="Dra. Luanna Pacheco, advogada especialista em Direito Médico"
             class="relative z-10 w-full max-w-sm md:max-w-none h-auto md:h-[600px] object-cover rounded-sm shadow-2xl"
+            loading="lazy"
+            width="600"
+            height="600"
           />
         </picture>
       </div>

@@ -8,6 +8,10 @@
           src="/src/assets/images/hero-banner.jpg"
           alt="Escritório jurídico moderno com ambientação sofisticada"
           class="w-full h-full object-cover"
+          fetchpriority="high"
+          loading="eager"
+          width="1440"
+          height="707"
         />
       </picture>
       <!-- Navy overlay -->
