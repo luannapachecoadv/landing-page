@@ -33,7 +33,7 @@
 
         <!-- Subtitle -->
         <p class="font-body text-lg leading-relaxed mb-10" style="color: rgba(255,255,255,0.88);">
-          Defesa especializada para profissionais da saúde e instituições hospitalares com foco em resultados e segurança jurídica.
+          Atuação especializada na demanda de direito de saúde (plano de saúde), benefício de prestação continuada (BPC/LOAS) para Autista e TDAH, e erro médico.
         </p>
 
         <!-- CTA Buttons -->

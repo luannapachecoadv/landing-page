@@ -19,7 +19,7 @@
         <!-- Left: info text -->
         <div class="space-y-6">
           <p class="font-body text-lg leading-relaxed" style="color: var(--color-on-surface-variant);">
-            Estamos prontos para oferecer a segurança jurídica que sua prática profissional exige. Entre em contato pelo canal de sua preferência e nossa equipe retornará em até 24h.
+            Formas de contato:
           </p>
 
           <!-- Contact items -->

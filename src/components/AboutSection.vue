@@ -32,10 +32,7 @@
         <div class="w-20 h-1 rounded-full" style="background-color: var(--color-secondary);"></div>
 
         <p class="font-body text-lg leading-relaxed" style="color: var(--color-surface-variant);">
-          Advogada com atuação especializada em Direito da Saúde para pacientes, com foco em demandas contra planos de saúde, erro médico e trabalhista para profissionais da saúde.
-        </p>
-        <p class="font-body text-lg leading-relaxed" style="color: var(--color-surface-variant);">
-          Sua atuação é pautada na prevenção de litígios e na construção de um ambiente institucional seguro, permitindo que profissionais e hospitais foquem no que é essencial: a excelência no atendimento.
+          Advogada com atuação especializada em Direito da Saúde para pacientes, com foco em demandas contra planos de saúde e erro médico, garantindo o que há de mais valor na vida do ser humano: a saúde.
         </p>
 
         <!-- OAB badge -->

@@ -60,32 +60,11 @@
 <script setup>
 const services = [
   {
-    id: 'crm',
-    icon: 'balance',
-    title: 'Defesa em Processos Éticos (CRM)',
-    description:
-      'Atuação estratégica perante os conselhos profissionais, garantindo o direito à ampla defesa e preservação da reputação.',
-  },
-  {
     id: 'civil',
     icon: 'medical_information',
     title: 'Responsabilidade Civil Médica',
     description:
       'Defesa técnica em ações de indenização por erro médico, danos morais e materiais com foco na perícia judicial.',
-  },
-  {
-    id: 'compliance',
-    icon: 'domain_verification',
-    title: 'Consultoria em Compliance Hospitalar',
-    description:
-      'Implementação de protocolos de segurança, gestão de riscos e adequação às normas vigentes da ANS e ANVISA.',
-  },
-  {
-    id: 'bioetica',
-    icon: 'clinical_notes',
-    title: 'Assessoria em Bioética',
-    description:
-      'Pareceres jurídicos sobre questões éticas complexas, diretivas antecipadas de vontade e comitês de ética em pesquisa.',
   },
   {
     id: 'loas',
@@ -106,21 +85,6 @@ const services = [
       'Negativa de reembolso de despesas médicas garantidas em contrato;',
       'Exclusão de hospitais ou médicos da rede credenciada sem comunicação prévia ao beneficiário;',
       'Falta de cobertura para home care ou remoção por ambulância quando clinicamente necessários.',
-    ],
-  },
-  {
-    id: 'trabalhista',
-    icon: 'groups',
-    title: 'Direitos dos Profissionais da Saúde',
-    description:
-      'Médicos, enfermeiros, técnicos e demais profissionais da saúde enfrentam rotinas exaustivas, plantões excessivos e, muitas vezes, direitos trabalhistas desrespeitados. Atuamos exclusivamente na defesa desses profissionais, com conhecimento aprofundado das particularidades da categoria. Nosso compromisso é garantir que quem cuida da saúde dos outros também tenha seus direitos protegidos, com atendimento humanizado e atuação estratégica em negociações extrajudiciais e ações judiciais.',
-    items: [
-      'Horas extras e jornada em regime de plantão;',
-      'Adicional de insalubridade e periculosidade;',
-      'Assédio moral e ambiente de trabalho hostil;',
-      'Rescisão indireta e verbas rescisórias;',
-      'Reconhecimento de vínculo empregatício;',
-      'Equiparação salarial e desvio de função.',
     ],
   },
 ]
